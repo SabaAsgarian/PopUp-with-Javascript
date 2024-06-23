@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup with JavaScript</title>
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/javascript.css">
+    <link rel="stylesheet" href="css/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    
+</head>
+<body>
+    <section class="w-full h-[800px] bgg flex justify-center items-center *:font-ar">
+        <div class="row flex justify-center items-center">
+            <button class="w-[250px] h-[60px] bg-green-400 text-white text-[20px] lg:text-[30px] text-center shadow-2xl shadow-[#5e8f27] rounded-lg" id="btn">Click Me!</button>
+            <div class="popup hide justify-center items-center flex w-[90%] h-[600px] *:text-center">
+                <section class="flex w-[90%] h-full border-white border-[5px] rounded-lg">
+                    <img class="hidden md:flex md:w-[30%] md:h-full object-cover " src="img/popup-travel-1.jpg" alt="">
+                    <div class="w-full h-full md:w-[70%] md:h-full bgp">
+                        <div class="row *:text-center *:text-white *:py-[20px] *:md:py-[24px]">
+                            <span class="span cursor-pointer bg-white !text-black absolute bottom-0 right-6 md:top-0 md:right-[70px] text-[15px] w-[20px] h-[20px] md:w-[25px] md:h-[25px] flex justify-center items-center text-center rounded-full">X</span>
+                            <h3 class="w-full text-[15px] lg:text-[30px]">Book And Explore The Best Destinations</h3>
+                            <p class="w-full text-[12px] lg:text-[18px] font-extralight">Stay up to date with our latest destinations and tours information. Subscribe Today!</p>
+                            <div class="row justify-center items-center">
+                                <input class="text-[12px] w-[50%] h-[60px] rounded-lg !text-black" type="text" placeholder="Enter Your E-mail">
+                            </div>
+                            <div class="row justify-center items-center text-center">
+                                <button class="hover:bg-[#0e76bc] duration-1000 w-[50%] h-[60px] text-[12px] lg:text-[18px] font-extralight bg-[#8bca02] rounded-md ">Subscribe! <i class=" icon-right text-[20px]"></i></button>
+                            </div>
+                            <p class="w-full text-[12px] lg:text-[18px]">Need help? Call Tour Experts <p class="!text-orange-400 w-full !pt-[5px] text-[10px]">(090) 808-2345</p></p>
+                        </div>
+                    </div>
+                </section>
+        
+            </div>
+        </div>
+    </section>
+    <footer class="w-full h-[200px] bgf">
+        <!-- my signature -->
+        <figure class=" group w-[130px] h-[130px] flex flex-wrap fixed z-10 left-[10px] bottom-[40px] rounded-full cursor-pointer ">
+            <img class="bg-[#4ade80] relative z-10 w-full h-full object-cover rounded-full" src="img/me.png" alt="">
+            <div class="group-hover:right-[-41px] group-hover:opacity-100 group-hover:visible w-[40px] h-[90px] absolute top-0 right-[70px] opacity-0 invisible duration-[.4s] ease-linear hover:right-[-45px] hover:opacity-100 hover:visible">
+                <a class="flex items-center justify-center w-full h-[40px] rounded-full bg-[#4ade80] text-white flex-[18px] mb-[5px] duration-[.3s] ease-linear relative hover:bg-[#4ade80] hover:text-black" href="https://github.com/SabaAsgarian" target="_blank"><i class="icon-github-circled-1"></i></a>
+                <a class="flex items-center justify-center w-full h-[40px] rounded-full bg-[#4ade80] text-white flex-[18px] mb-[5px] duration-[.3s] ease-linear relative hover:bg-[#4ade80] hover:text-black" href="https://www.linkedin.com/in/saba-asgarian-69161088?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class=" icon-linkedin-1"></i></a>
+                <a class="flex items-center justify-center w-full h-[40px] rounded-full bg-[#4ade80] text-white flex-[18px] mb-[5px] duration-[.3s] ease-linear relative hover:bg-[#4ade80] hover:text-black" href="https://www.instagram.com/saba_asgarian_web?igsh=M2Z2dTU3cHFmeW1o&utm_source=qr" target="_blank"><i class="icon-instagram-2"></i></a>
+                <a class="flex items-center justify-center w-full h-[40px] rounded-full bg-[#4ade80] text-white flex-[18px] mb-[5px] duration-[.3s] ease-linear relative hover:bg-[#4ade80] hover:text-black" href="mailto:computer.sabaa@gmail.com" target="_blank"><i class="icon-mail"></i></a>
+                                        
+            </div>
+        </figure>
+        <!-- my signature -->
+            <section class="w-full h-1/2 border-t-purple-200 border-t-[1px] *:text-white flex justify-center md:justify-around  py-[50px]">
+                <p class="w-1/3">Developed By <a class="hover:text-[#013836]" href="https://github.com/SabaAsgarian" target="_blank">Saba Asgarian</a> with Tailwind & JavaScript</p>
+                <ul class=" ps-[20px] flex flex-wrap  *:text-[#fef6e6] text-[15px] lg:text-[24px] *:text-[15px] *:lg:text-[30px] justify-start  lg:justify-end items-center *:mx-[8px]">
+                    <li><a class="flex py-[4px] px-[4px]  hover:bg-[#013836] justify-center items-center bg-[#44825c]" href="https://github.com/SabaAsgarian" target="_blank"><i class="icon-github-circled-1"></i></a></li>
+                    <li><a class="flex py-[4px] px-[4px]  hover:bg-[#013836] justify-center items-center bg-[#44825c]" href="https://www.linkedin.com/in/saba-asgarian-69161088?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="icon-linkedin-1"></i></a></li>
+                    <li><a class="flex py-[4px] px-[4px]  hover:bg-[#013836] justify-center items-center bg-[#44825c]" href="https://www.instagram.com/saba_asgarian_web?igsh=M2Z2dTU3cHFmeW1o&utm_source=qr" target="_blank"><i class="icon-instagram-2"></i></a></li>
+                    <li> <a class="flex py-[4px] px-[4px]  hover:bg-[#013836] justify-center items-center bg-[#44825c]" href="mailto:computer.sabaa@gmail.com"><i class="icon-mail"></i></a></li>
+                </ul>
+            </section>
+            <span class="relative">
+                <a class="hover:bg-[#013836] fixed right-[2%] bottom-[5%] bg-[#333333cc] flex h-[50px] w-[40px] justify-center items-center text-white text-[18px] " href="#"><i class=" icon-up-open-2"></i></a>
+            </span>
+    </footer>
+    
+</body>
+<script>
+    const btn = document.querySelector('#btn')
+    const popup =document.querySelector('.popup')
+    const close = document.querySelector('.span')
+    btn.addEventListener('click' , ()=>{
+        popup.classList.remove('hide')
+    })
+    close.addEventListener('click',()=>{
+        popup.classList.add('hide')
+    })
+</script>
+</html>
