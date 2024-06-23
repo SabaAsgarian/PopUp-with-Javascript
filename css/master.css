@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: ar;
+    src: url(../font/ArchivoBlack-Regular.ttf);
+}
+.bgg{
+    background:linear-gradient(to bottom right, #44825c, #1c3c28);
+}
+.bgp{
+    background:linear-gradient(to bottom right,#258a86, #013836 );
+}
+.bgf{
+    background:linear-gradient(to bottom right, #83ba98, #085626);
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
